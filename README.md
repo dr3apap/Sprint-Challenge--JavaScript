@@ -29,14 +29,28 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+forEach only loop over the Array, all of the Array and it doesn't gives us anything back. We have to return the value from forEach.
+Map gives us a new Array set back and the data can be process after.
 
 2. What is the difference between a function and a method?
+A method exist on a object. A function is a block of code that can be declare and invoke on any object or block of codes.
 
 3. What is closure?
+A closure is a function that has access to its outer function scope even after the outer function has returned. This means a closure can remember and access variables and arguments of its outer function even after the function has finished.
+
 
 4. Describe the four rules of the 'this' keyword.
+Is the function called by new?
+Is the function called by call(), apply(), or bind()?
+Is the function called as a method, ie: obj.func()?
+Is the function called in the global scope?
+
+If strict mode is enabled, return undefined.
+Otherwise, return the global object, ie: window
+
 
 5. Why do we need super() in an extended class?
+We need Super because it tells where we come from, where we belong where we derived our property and attributes from.
 
 ## Project Set up
 
